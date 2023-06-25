@@ -6,8 +6,9 @@ Library    Collections
 *** Keywords ***
 Get Request
     [Arguments]    ${endpoint}
-    ${Response}    RequestsLibrary.GET    ${endpoint}            #Using RequestLibrary's keyword GET request with a required parameter of an endpoint which is pass from testcase.    
-    [Return]    ${Response.status_code},${Response.content}      #Return values of status code and api response to be use by other keywords.
+    ${Resp}    RequestsLibrary.GET    ${endpoint}            #Using RequestLibrary's keyword GET request with a required parameter of an endpoint which is pass from testcase.    
+    Set Test Variable     ${Response}    ${Resp}
+    [Return]    ${Response}                                  #Return values of the api response and status code, to be use by other keywords.
         
 Validate Succesful Response
     ${resp_code}    Convert To String     ${Response.status_code}
