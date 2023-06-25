@@ -12,16 +12,17 @@ Install Pre-Requisites
 
 2.  Install Packages needed:   
     
--   pip install RobotFramework
--   pip install robotframework-requests
+ -         pip install RobotFramework
+ -         pip install robotframework-requests
+ -         pip install robotframework-jsonlibrary
 
 ##  Run Locally
 
 1.  Clone the project
 ```bash
-  git clone https://github.com/DiGiDaNRE/API_Assurity.git)https://github.com/DiGiDaNRE/API_Assurity.git
+  git clone https://github.com/DiGiDaNRE/API_Assurity.git
 ```
-2. Go to the project directory - Run project via command line
+2. Go to the project directory and locate testcase folder - Run project via command line inside testcase folder
 
 ```bash
   robot "Assurity_GetRequest - Categories_v1.robot"
