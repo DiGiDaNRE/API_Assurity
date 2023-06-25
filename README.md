@@ -18,17 +18,17 @@ Install Pre-Requisites
 
 ##  Run Locally
 
-1.  Clone the project
+1. Clone the project
 ```bash
   git clone https://github.com/DiGiDaNRE/API_Assurity.git
 ```
-2. Go to the project directory and locate testcase folder - Run project via command line inside testcase folder
+2. Execute testcase - Go to the project directory and locate testcase folder: Run project via command line inside "testcase" folder
 
 ```bash
   robot "Assurity_GetRequest - Categories_v1.robot"
 ```
 
-2. Check Result of test execution - go to the project directory under "results" folder, open "log.html" for a comprehensive breakdown. See below of expected results.
+3. Check Result of test execution - go to the project directory under "results" folder, open "log.html" for a comprehensive breakdown. See below of expected results.
    
 ## Screenshot
 ![log.html](https://snipboard.io/NZ8WuQ.jpg)
