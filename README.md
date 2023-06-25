@@ -1,14 +1,10 @@
-
 # API_Assurity
-
 Assurity - Take home exam
 
-
 ## Installation
-
 Install Pre-Requisites 
-
 1. Install latest version of [Python](https://www.python.org/)
+    - enable "Add Python.exe to PATH" checkbox
 
 2.  Install Packages needed:   
     
@@ -16,8 +12,7 @@ Install Pre-Requisites
  -         pip install robotframework-requests
  -         pip install robotframework-jsonlibrary
 
-##  Run Locally
-
+##  Run locally
 1. Clone the project
 ```bash
 git clone https://github.com/DiGiDaNRE/API_Assurity.git
